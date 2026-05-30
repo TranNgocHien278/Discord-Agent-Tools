@@ -1,0 +1,19 @@
+[project]
+name = "command-listener"
+version = "0.1.0"
+description = "Discord channel command listener that runs scripts directly (no LLM)."
+requires-python = ">=3.11"
+dependencies = [
+    "websockets>=12.0",
+    "httpx>=0.27",
+]
+
+[project.scripts]
+command-listener = "command_listener.main:main"
+
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[tool.hatch.build.targets.wheel]
+packages = ["command_listener"]
