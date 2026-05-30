@@ -1,0 +1,21 @@
+{
+  "_comment": "Prices in USD per 1,000,000 tokens. Update when providers change pricing.",
+  "default": { "in": 1.0, "out": 3.0 },
+  "models": {
+    "Claude-Opus":    { "in": 15.0, "out": 75.0 },
+    "Claude-Sonnet":  { "in": 3.0,  "out": 15.0 },
+    "Claude-Haiku":   { "in": 0.25, "out": 1.25 },
+    "Gemini_Flash":   { "in": 0.075, "out": 0.30 },
+    "Gemini_Pro":     { "in": 1.25, "out": 5.0 },
+    "GPT-5.1":        { "in": 5.0,  "out": 15.0 },
+    "GPT-5.2":        { "in": 5.0,  "out": 15.0 },
+    "GPT-5.3-Spark":  { "in": 5.0,  "out": 15.0 },
+    "GPT-5.3-High":   { "in": 5.0,  "out": 15.0 },
+    "GPT-5.5":        { "in": 5.0,  "out": 15.0 },
+    "Deepseek":       { "in": 0.27, "out": 1.10 },
+    "Qwen":           { "in": 0.20, "out": 0.60 },
+    "Kimi":           { "in": 0.30, "out": 1.00 },
+    "GLM":            { "in": 0.30, "out": 1.00 },
+    "Minimax":        { "in": 0.20, "out": 0.60 }
+  }
+}
